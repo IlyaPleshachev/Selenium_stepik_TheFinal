@@ -6,7 +6,7 @@ from .pages.basket_page import BasketPage
 
 
 @pytest.mark.user_register
-class TestUserAddToCartFromProductPage(object):
+class TestUserAddToBasketFromProductPage(object):
     @pytest.fixture(scope="function", autouse=True)
     def setup(self, browser):
         link = "http://selenium1py.pythonanywhere.com/"
